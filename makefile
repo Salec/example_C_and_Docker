@@ -8,7 +8,7 @@ INCLUDE =
 LIBS = 
 
 main:${OBJ}
-	${CC} ${CFLAGS} ${INCLUDES} -o build/$@.out ${OBJS} ${LIBS}
+	${CC} ${CFLAGS} ${INCLUDES} -o $@.out ${OBJS} ${LIBS}
 
 clean:
 	-rm -f *.o core *.core *.out

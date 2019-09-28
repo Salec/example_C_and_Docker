@@ -11,7 +11,7 @@ main:${OBJ}
 	${CC} ${CFLAGS} ${INCLUDES} -o build/$@.out ${OBJS} ${LIBS}
 
 clean:
-	-rm -f *.o core *.core build/*
+	-rm -f *.o core *.core *.out
 
 .cpp.o:
 	${CC} ${CFLAGS} ${INCLUDES} -c $<

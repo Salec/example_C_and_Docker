@@ -1,8 +1,6 @@
 # specific from app
 
 record.dat 
-build/*
-
 
 ## from https://github.com/github/gitignore/blob/master/C.gitignore
 # Prerequisites

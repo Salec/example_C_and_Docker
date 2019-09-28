@@ -22,7 +22,6 @@ Now you can find the exec in build - is named main.out -
 
 ### To run locally
 ```
-cd build 
 ./main.out
 ```
 
